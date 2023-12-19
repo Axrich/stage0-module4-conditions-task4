@@ -5,7 +5,7 @@ public class TernaryPrinter {
         if ( first >= second) {
         System.out.println((first > second) ? "first" : "second");
     } else {
-            System.out.println("Second number is bigger than first" + second)
+            System.out.println("Second number is bigger than first " + second);
                 }
     }
 
