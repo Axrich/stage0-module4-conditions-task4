@@ -5,7 +5,7 @@ public class MaxNumberPrinter {
         if (first >= second && third >= third) {
             System.out.println("The greatest number is: " + first);
             { else if (second >= first && second >= third) {
-                System.out.println("The greatest number is: + second);
+                System.out.println("The greatest number is: " + second);
                 { else {
                     System.out.println("The greatest number is: + third);
     }
