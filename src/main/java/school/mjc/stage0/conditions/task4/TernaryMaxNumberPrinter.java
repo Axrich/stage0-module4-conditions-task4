@@ -2,12 +2,12 @@ package school.mjc.stage0.conditions.task4;
 
 public class TernaryMaxNumberPrinter {
     public void printGreatest(int first, int second, int third) {
-        int greatest = (first >= second && first >= third) ? first : (second >= third) ? second : third;
-        System.out.println("The greatest number is: " + greatest);
-    }
-
-    public static void main(String[] args) {
-        TernaryMaxNumberPrinter printer = new TernaryMaxNumberPrinter();
-        printer.printGreatest(1, 0, -1);
+        int ternaryMaxNumberPrinterOfFirstAndSecondNumbers = first >= second ? first : second;
+            if(ternaryMaxNumberPrinterOfFirstAndSecondNumbers >= first || ternaryMaxNumberPrinterOfFirstAndSecondNumbers >= second
+                    || ternaryMaxNumberPrinterOfFirstAndSecondNumbers >= third) {
+                System.out.println(ternaryMaxNumberPrinterOfFirstAndSecondNumbers);
+            } else if (ternaryMaxNumberPrinterOfFirstAndSecondNumbers <= third) {
+                System.out.println(third);
+            }
     }
 }
